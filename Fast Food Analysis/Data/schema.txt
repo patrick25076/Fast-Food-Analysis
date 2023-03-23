@@ -1,0 +1,37 @@
+app layout design
+ 
+Kip Food 1/Kip Food 2/Ambele
+
+                                 Statistica 
+ start-date : end-date   numerar+ card+  ora() zi a sapt() luna() an()
+#Vanzarile totale din start-date lana in end-date cu un average de ... pe ()
+1.Procentajul vanzarilor pe () din start date pana in end date | card/numerar
+2.Procentajul clientilor pe () din start date pana in end date | card/numerar
+3.Procentajul vanzarilor pe categorii din start date pana in end date | card/numerar 
+4.Top 5 produse din start date pana in end date (bar-chart) pe () | card/numerar in functie de pret 
+5.Cresterea vanzarilor din start date pana in end date | card/numerar (line-chart) 
+6.Procentajul clientilor care au platit cu cardul vs numerar pe ()
+7.Categoria/Produsul cea mai vanduta in functie de () 
+8.Valoare Medie Bon in functie de()
+						Predictii
+1.Predictie vanzari pentru o anumita zi | avand in vedere vacanta, vreme 
+2.Produsele care au fost cumparate impreuna cel mai mult (combinatii) | 2/3/4/5 produse 
+						Comparare intre 1 si 2
+start-date : end date  numerar+ card+  ora() zi a sapt() luna()
+1.Vanzari 1 vs Vanzari 2 din start date pana in end date pe () | card/numerar
+2.Numar Clienti 1 vs Numar Clienti 2 din start-date pana in end-date pe() | card/numerar
+3.Top 5 produse 1 vs Top 5 produse 2 din start-date pana in end-date
+4.Valoare Medie Bon 1 vs Valoare Medie Bon 2 din start-date pana in end-date pe() | card/numerar
+
+Ce influenteaza venitul zilnic ?
+Afla ce este in corelare mare cu venitul.
+Valoare Medie de Bon sau Numarul de Bonuri e mai important?
+Cum poti creste venitul?
+Ce oferte poti adauga?
+Ce produse frecvente nu au deloc succes?
+Cat la suta din clienti cumpara mai mult de 1/2/3/4/5/6 produse?
+Care produse sunt cele mai constante de-alungul zilei?
+
+
+
+

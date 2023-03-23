@@ -1,0 +1,460 @@
+#dropdown{
+    text-align:center ;
+    border-radius:30px;
+    font-weight:bold ;
+    height:50% ;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.dropdown_div{
+    position:absolute;
+    width:250px ;
+    height:90px ;
+    top:11px  ;
+    left:80% ;
+
+}
+#dropdown .Select-control {
+    background-color: black !important;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+    weight:80px;
+    height:50px;
+  }
+
+#dropdown .Select-menu-outer {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+/* changes the text color of input box */
+#dropdown .Select-value-label {
+    color: rgb(37, 224, 37) !important;
+    margin: auto;
+    font-size: 32px;
+    position: relative;
+    top: 3px;
+}
+
+.datepicker{
+    position: absolute;
+    left:5%;
+    top:10%;
+    width:500px ;
+    height:120px ;
+}
+.DateInput_input, .DateInput_input_1  {
+
+    font-size: 25px ! important;
+    Height: 73px !important;
+    Width: 185px !important;
+    position: absolute;
+    top:8px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(37, 224, 37) !important;
+}
+.DateRangePickerInput__withBorder {
+    border: 0;
+}
+.DateRangePickerInput {
+    background-color: transparent !important;
+  }
+
+.DateRangePickerInput_arrow_svg , .DateRangePickerInput_arrow_svg_1{
+    opacity: 0 !important;
+}
+.DayPicker_transitionContainer ,.DayPicker_transitionContainer_1 ,.DayPicker_transitionContainer__horizontal, .DayPicker_transitionContainer__horizontal_2{
+    background-color: : black !important;
+    width:929px !important;
+    left:-10px !important;
+    height:315px !important;
+}
+.CalendarMonthGrid ,.CalendarMonthGrid_1 ,.CalendarMonthGrid__horizontal ,.CalendarMonthGrid__horizontal_2{
+    background-color: black !important;
+}
+.CalendarMonth , .CalendarMonth_1{
+    background-color: black !important;
+}
+.CalendarDay__selected_span {
+    color: rgb(37, 224, 37) !important;
+    background: gray !important;
+    border: 1px double rgb(37, 224, 37) !important;
+}
+.CalendarDay__default{
+    color: rgb(37, 224, 37) !important;
+    background: black ;
+    border: 1px double rgb(37, 224, 37) !important;
+}
+.DayPickerNavigation_button__default{
+    background-color: black !important;
+    border: 1px double rgb(37, 224, 37) !important;
+}
+.DayPickerNavigation_svg__horizontal{
+    fill:rgb(37, 224, 37) !important;
+}
+.CalendarMonth_caption{
+    color:rgb(37, 224, 37) !important;
+}
+.DayPicker_weekHeader{
+    color:rgb(37, 224, 37) !important;
+}
+
+.checklist{
+    position: absolute;
+    left:20.8%;
+    top:9.7%;
+    width:500px ;
+    height:120px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+#checkid{
+    margin: auto;
+
+}
+
+.form-check-label{
+    color:rgb(37, 224, 37) !important;
+    font-size:29px;
+}
+.form-check-input{
+    font-size:29px;
+}
+
+
+#_dbcprivate_checklist_checkid_input_card:checked {
+    background-color:rgb(37, 224, 37);
+}
+#_dbcprivate_checklist_checkid_input_numerar:checked{
+    background-color:rgb(37, 224, 37);
+}
+.radiobuttons{
+    position: absolute;
+    left:62.2%;
+    top:9.7%;
+    width:500px ;
+    height:120px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.total{
+    position: absolute;
+    left:80.5%;
+    top:9.3%;
+    width:400px ;
+    height:120px ;
+    margin: 0 auto;
+    color:rgb(37, 224, 37);
+}
+#radioitems{
+    margin:auto;
+}
+.form-check , .form-check-inline{
+    margin-right:30px;
+}
+.form-check-input:checked{
+    background-color:rgb(37, 224, 37);
+}
+
+.dropdownperiod{
+    position: absolute;
+    left:42.2%;
+    top:10.7%;
+    width:400px ;
+    height:120px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#timeframe_dropdown{
+    margin:auto;
+    width:300px;
+    height:70px;
+}
+#timeframe_dropdown .Select-control {
+    background-color: black !important;
+    color:white;
+    cursor:pointer;
+    weight:80px;
+    height:50px;
+}
+
+#timeframe_dropdown .Select-value-label {
+    color: rgb(37, 224, 37) !important;
+    margin: auto;
+    font-size: 23px;
+    position: relative;
+    top: 3px;
+}
+#timeframe_dropdown .Select-menu-outer {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+.is-focused:not(is-open)>.Select-control{
+    border-color:rgb(37, 224, 37) !important;
+}
+
+.line_chart{
+    position: absolute;
+    top:20%;
+    width:1130px ;
+    height:110px ;
+
+}
+
+.pie_chart{
+    position: absolute;
+    left:63%;
+    top:20%;
+    width:680px ;
+    height:110px ;
+}
+
+.top5class{
+    position: absolute;
+    top:66%;
+    width:1650px;
+    height:300px ;
+}
+
+.combinationsclass{
+    position: absolute;
+    top:107.7%;
+    left :45.6%;
+    width:1000px ;
+    height:300px ;
+
+}
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]){
+    background-color: aqua !important;
+    text-align: center !important;
+
+}
+.dash-cell.column-2.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-2.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+
+.dash-cell.column-1.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-1.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-3.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-3.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-4.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-4.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-5.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-5.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-6.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-6.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+
+.dash-cell.column-7.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-7.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-8.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-8.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-9.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-9.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-10.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-11.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-11.cell--selected.focused{
+    border-color:white !important;
+}
+
+.dash-cell.column-10.cell--selected.focused:hover{
+    border-color:white !important;
+    background-color: rgb(37, 224, 37) !important;
+    color: orange !important;
+}
+.dash-cell.column-1{
+    border-color: white !important;
+}
+.dash-cell.column-2{
+    border-color: white !important;
+}
+.dash-cell.column-3{
+    border-color: white !important;
+}
+.dash-cell.column-4{
+    border-color: white !important;
+}
+.dash-cell.column-5{
+    border-color: white !important;
+}
+.dash-cell.column-6{
+    border-color: white !important;
+}
+.dash-cell.column-7{
+    border-color: white !important;
+}
+.dash-cell.column-8{
+    border-color: white !important;
+}
+.dash-cell.column-9{
+    border-color: white !important;
+}
+.dash-cell.column-10{
+    border-color: white !important;
+}
+.dash-cell.column-11{
+    border-color: white !important;
+}
+.dash-cell.column-12{
+    border-color: white !important;
+}
+.column-header-name{
+    font-size: 25px !important;
+    color:aqua !important;
+}
+
+.unfocused.selectable.dash-cell-value{
+    font-size: 25px !important;
+}
+
+.infoproduct{
+
+        position: absolute;
+        top:73%;
+        left :76.7%;
+        width:250px ;
+        height:130px ;
+        border:4px double aqua;
+
+}
+
+.stardust{
+        position: absolute;
+        top:97%;
+        left :1%;
+        width:700px ;
+        height:340px ;
+
+}
+
+.infoproduct h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.butonclear{
+
+    position: absolute;
+    top:91.4%;
+    left :76.7%;
+    width:50px ;
+    height:50px ;
+
+}
+
+#clear{
+    width: 30px;
+    height: 30px;
+}
+
+.barchartclass{
+    position: absolute;
+    top:64%;
+    width:730px ;
+    height:75px ;
+    left:62%;
+}
+.sliderclass{
+    position: absolute;
+    top:103.7%;
+    left :48.6%;
+    width:350px ;
+    height:100px ;
+    transform: scale(1.55)
+}
+
+.rc-slider-handle{
+    border: 2px solid rgb(37, 224, 37) !important;
+    background-color: black !important;
+}
+.rc-slider-dot-active{
+    border-color:rgb(37, 224, 37) !important;
+}
+.rc-slider-step:{
+    background: red !important;
+}
+.rc-slider-track{
+    background-color: rgb(37, 224, 37) !important;
+}
+.rc-slider-mark-text{
+    color:rgb(37, 224, 37) !important;
+}
