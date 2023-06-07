@@ -36,32 +36,7 @@ cache = Cache(app.server, config={
 app.config.suppress_callback_exceptions = True
 
 timeout = 20
-data = OrderedDict(
-    [
-        ("Date", [ "2015-10-24", "2016-05-10", "2017-01-10", "2018-05-10", "2018-08-15"]),
-        ("Region", ["Montreal", "New York City", "Miami", "San Francisco", "London"]),
-        ("Temperature", [1, -20, 3.512, 10423, -441.2]),
-        ("Humidity", [10, 20, 30, 40, 50]),
-        ("Pressure", [2, 10924, 3912, -10, 3591.2]),
-        ("Da", [ "2015-10-24", "2016-05-10", "2017-01-10", "2018-05-10", "2018-08-15"]),
-        ("Rgion", ["Montreal", "New York City", "Miami", "San Francisco", "London"]),
-        ("Tmperature", [1, -20, 3.512, 10423, -441.2]),
-        ("Hmidity", [10, 20, 30, 40, 50]),
-        ("Pessure", [2, 10924, 3912, -10, 3591.2]),
-        ("Hidity", [10, 20, 30, 40, 50]),
-        ("Prsure", [2, 10924, 3912, -10, 3591.2])
 
-    ]
-)
-data1 = OrderedDict(
-    [
-        ("Date", [ "2015-10-24", "2016-05-10", "2017-01-10", "2018-05-10", "2018-08-15"]),
-        ("Region", ["Montreal", "New York City", "Miami", "San Francisco", "London"]),
-        ("Temperature", [1, -20, 3.512, 10423, -441.2]),
-        ("Humidity", [10, 20, 30, 40, 50]),
-        ("Pressure", [2, 10924, 3912, -10, 3591.2]),])
-df = pd.DataFrame(data)
-dr=pd.DataFrame(data1)
 
                          #Data Wrangling for Kip Food 1
 raw_df_kipfood1=pd.read_csv(r"C:\Users\patri\Desktop\Projects\Fast Food Analysis\Fast Food Analysis\Data\Raport 15 Martie Kip Food 1.csv")
