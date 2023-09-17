@@ -39,7 +39,7 @@ timeout = 20
 
 
                          #Data Wrangling for Kip Food 1
-raw_df_kipfood1=pd.read_csv(r"C:\Users\patri\Desktop\Projects\Fast Food Analysis\Fast Food Analysis\Data\Raport 15 Martie Kip Food 1.csv")
+raw_df_kipfood1=pd.read_csv("path_to_csv")
 raw_df_kipfood1.pop(raw_df_kipfood1.columns[0])
 raw_df_kipfood1.rename(columns= {"Nr Bon" :"Nr"} , inplace=True)
 raw_df_kipfood1.rename(columns={"Tip Plata" :"Pay"} ,inplace=True)
@@ -122,7 +122,7 @@ raw_df_kipfood1['Day of Week']=np.select(day_conditions,day_values)
 raw_df_kipfood1['Category']=np.select(conditions1,values)
 
                         #Data Cleaning for Kip Food 2
-raw_df_kipfood2=pd.read_csv(r"C:\Users\patri\Desktop\Projects\Fast Food Analysis\Fast Food Analysis\Data\Raport 15 Martie Kip Food 2.csv")
+raw_df_kipfood2=pd.read_csv("path_to_csv")
 raw_df_kipfood2.pop(raw_df_kipfood2.columns[0])
 raw_df_kipfood2.rename(columns= {"Nr Bon" :"Nr"} , inplace=True)
 raw_df_kipfood2.rename(columns={"Tip Plata" :"Pay"} ,inplace=True)
